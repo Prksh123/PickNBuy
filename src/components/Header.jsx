@@ -2,7 +2,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { GoArrowLeft } from "react-icons/go";
-import { CartContext } from "../contexts/Cartcontext";
+import { CartContext } from "../contexts/CartContext";
 import { FilterContext } from "../contexts/FilterContext";
 
 function Header() {

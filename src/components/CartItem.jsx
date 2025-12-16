@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { CartContext } from "../contexts/Cartcontext";
+import { CartContext } from "../contexts/CartContext";
 import { Button, TextField } from "@mui/material";
 
 const CartItem = ({ item }) => {

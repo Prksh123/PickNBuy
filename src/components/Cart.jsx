@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { CartContext } from "../contexts/Cartcontext";
+import { CartContext } from "../contexts/CartContext";
 import { Modal, Button, Box, Typography } from "@mui/material";
 import CartItem from "./CartItem";
 

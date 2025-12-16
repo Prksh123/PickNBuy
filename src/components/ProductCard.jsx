@@ -1,6 +1,6 @@
 import { Card, CardContent, Button, TextField } from "@mui/material";
 import { useContext } from "react";
-import { CartContext } from "../contexts/Cartcontext";
+import { CartContext } from "../contexts/CartContext";
 
 const ProductCard = ({ product }) => {
   const { cart, addToCart, updateQuantity } = useContext(CartContext);
